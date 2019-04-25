@@ -1,0 +1,227 @@
+
+/*  頁面動畫scrollr設定 */
+
+.parallax-image .skrollable-between {
+    display:block;
+}
+
+.no-skrollr .parallax-image-wrapper {
+    display:none !important;
+}
+
+.parallax-image-wrapper {
+    position:fixed;
+    left:0;
+    width:100%;
+    overflow:hidden;
+
+    height:80vh;
+    top:-80vh;
+}
+
+.parallax-image {
+    display:none;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh;
+    top:0;
+}
+
+.parallax-image.skrollable-between {
+    display:block;
+}
+
+.no-skrollr .parallax-image-wrapper {
+    display:none !important;
+}
+
+.gap {
+    background:transparent center no-repeat;
+    background-size:cover;
+    height:80vh;
+}
+
+.skrollr .gap {
+    background:transparent !important;
+}
+
+
+/*Body Text*/
+
+
+.body-text{
+    padding: 140px 0;
+    background-color: #fff;
+    color: #25373C;
+    font-size: 18px;
+    text-align: center;
+}
+
+.body-text h2{
+    font-size: 42px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.body-text p{
+    width: 28%;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    color: #45636B;
+}
+
+
+@media (max-width: 900px){
+
+    .body-text p{
+        width: 100%;
+    }
+
+}
+
+/*entrance List*/
+
+.entrance-list{
+    padding: 150px 0;
+    background-color: #fff;
+    color: #25373C;
+    font-size: 18px;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.entrance-list h2{
+    font-size: 42px;
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+
+.entrance-list div{
+    display: inline-block;
+    width: 30%;
+    margin: 5px;
+    border: 1px solid #ccc;
+    padding: 45px;
+    box-shadow: 1px 1px 1px #ccc, 0 0 30px #eee inset;
+}
+
+.entrance-list div i{
+    font-size: 150px;
+    margin-bottom: 40px;
+    color: #50B575;
+}
+
+.entrance-list div h4{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #425F67;
+    font-weight: normal;
+}
+
+@media (max-width: 900px){
+
+    .entrance-list div{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+}
+
+/*About us*/
+
+.about-us{
+    padding: 100px 0;
+    background-color: #fff;
+    min-height: 120vh;
+    text-align: center;
+    color: #25373C;
+    font-size: 20px;
+}
+
+.about-us h2{
+    font-size: 45px;
+    margin-bottom: 80px;
+    font-weight: normal;
+}
+
+.about-us p{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.about-us div{
+    text-align: center;
+    width: 35%;
+    margin: 30px 10px;
+    display: inline-block;
+}
+
+
+.about-us div img{
+    border-radius: 50%;
+    width: 60%;
+}
+
+
+@media (max-width: 800px){
+
+    .about-us div{
+        width: 60%;
+        margin: 30px 0;
+    }
+
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.04);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: left;
+    padding: 50px 60px 55px;
+    overflow: hidden;
+}
+
+/*連結設定*/
+
+footer-header{
+    font-size: 20px;
+}
+
+a:hover,a:focus{color:#74777b;}
+
+
+ul {
+    list-style: none;
+    border-bottom: 1px solid #EAEAEA;
+    background-color: #FFF;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+}
+
+ul a{
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    background-color: #000000;
+    padding: 11px 11px;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-size: 17px;
+    display: inline-block;
+    margin: 4px;
+    line-height: 1.2;
+    outline: none;
+
+    transition: 0.2s ease;
+}
